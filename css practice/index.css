@@ -1,0 +1,16 @@
+p {
+    background-color: brown;
+}
+
+ul li a {
+    background-color: aqua;
+}
+
+#btn {
+    background-color: cadetblue;
+}
+
+input[type="text"]{
+    background-color: aqua;
+}
+

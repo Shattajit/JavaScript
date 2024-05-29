@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>course registration form</h1>
+
+    <form>
+
+        <div>
+            <label for="fullname">Full name:</label> 
+            <input type="text" name="fullname" id="fullname" required>
+        </div> <br/>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div> <br/>
+
+        <div>
+            <label for="password">password: </label>
+            <input type="password" name="password" id="password">
+        </div> <br/>
+
+        <div>
+            <label for="dob">Date of birth:</label>
+            <input type="date" name="dob" id="dob">
+        </div> <br/>
+
+        <div>
+            <label for="photo">choose your photo:</label>
+            <input type="file" name="photo" id="photo">
+        </div> <br/>
+
+        <div>
+            <label for="gender">gender: </label>
+            <input type="radio" name="gender" id="gender" value="male">male
+            <input type="radio" name="gender" id="gender" value="female">female
+        </div> <br/>
+
+        <div>
+            <label for="gender">religion: </label>
+            <input type="checkbox" name="religion" id="religion" value="islam">islam
+            <input type="checkbox" name="religion" id="religion" value="hindu">hindu
+        </div> <br/>
+
+        <div>
+            <label for="department">department:</label>
+            <select name="department">
+                <option value="cse">cse</option>
+                <option value="cse" selected>eee</option>
+                <option value="mpe">mpe</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">message: </label> <br/>
+            <textarea cols="40" rows="9"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="register">
+            <input type="reset" value="clear">
+        </div>
+    
+    
+    </form>
+
+</body>
+</html>
